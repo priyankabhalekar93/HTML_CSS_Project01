@@ -1,0 +1,1525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: "Roboto", Sans-serif;
+}
+p{
+    font-family: "Roboto", Sans-serif
+}
+
+#container{
+    width: 100%;
+    border:1px solid red;
+}
+
+
+#up-stick
+{
+   
+    background-color: orange;
+    color: white;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    padding: 5px 10px; 
+    font-size: 15px; 
+   
+}
+#up-child{
+      
+    width: 64%;
+    margin-right: 15px;  
+}
+#up-child i{
+    margin-left: 15px;
+}
+
+#search{
+    background: white;
+    border: 0px none white;
+    border-radius: 4px;
+    padding: 5px;
+    align-content: center;
+    
+}
+#search-form button{
+    padding: 5px; 
+    background: rgb(19, 1, 68);
+    border: 0px none white;  
+    color: white;
+    font-weight: bold;
+    
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 5px;
+  
+}
+
+#menubar{
+    padding-right: 40px;
+
+}
+#navbar{
+    display: none;
+}
+#home-herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.123)), url(../images/Home-Page_1-mobile-.jpg);
+
+    background-position: center right;
+    width: 100%;
+    min-height: 600px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+#home-herosection img{
+    width: 100%;
+    
+}
+.home-herosection-child
+{
+        width:100%;
+        padding: 170px 0px 0px 10px;
+
+            
+}
+.home-herosection-child h1{
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
+    color: #FFF;
+   
+}
+.home-herosection-child p{
+   font-style: italic;
+    text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
+    color: #FFF;
+}
+#welcome{
+    display: block;
+    margin: 50px 10px 50px 10px;
+}
+.welcome-child1{
+    width: 100%;
+    margin-top: 10px;
+}
+.welcome-child1 h3{
+    color: orange;
+    margin: 10px 0px 10px 0px;
+    font-weight: 700;
+}
+.welcome-child1 h2{
+    color:#000067;
+    text-shadow: 0 0 0 rgb(0 0 0 / .3);
+    font-weight: 900;
+    margin: 10px 0px 10px 10px;  
+    line-height: 1.5;
+
+}
+.welcome-child1 p{
+    margin: 10px 10px ;  
+}
+.welcome-child2{
+    width: 100%;
+}
+.welcome-child2 img{
+    width: 100%;
+    border:10px solid white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .5);
+}
+#review{
+   display: block; 
+}
+#r-c1-container{   
+    text-align: center;
+    margin: 10px 0px;
+}
+#r-c1-container h2{   
+    font-weight: 600;
+}
+#star{
+   display: block;
+  
+}
+.star-w{
+    width: 30px;
+    height: 30px;
+}
+.google
+{
+    max-width: 150px;
+}
+.review-child{
+    display: block;
+    margin:     10px 10px;
+}
+#profile1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.profile-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    vertical-align: middle;
+}
+.r-c2-container-child{
+    margin-top: 20px; 
+}
+.p-c-child{
+    margin-right: 10px;
+}
+#profile2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+#r-b{
+    margin: 40px 20px;
+    text-align: center;
+}
+
+#review-button {
+    background-color: orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;margin-top: 20px;
+   
+
+}
+
+#popular-destination{
+    
+    background-image: url(../images/Home_2.jpg);
+    padding:20px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+
+.popular-destination-child1{
+     width: 100%;
+    padding:50px 0px;
+    
+    
+
+}
+#popular-destination-child1 h3{
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 2px;
+    color: white;
+}
+#popular-destination-child1 h2{
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    color: white;
+}
+#popular-destination-child1 p{
+    font-weight: 400;
+    font-family: "Roboto", Sans-serif;
+    margin-top: 30  px;
+    font-size: 18px;
+    color: white;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.popular-destination-child2-5{
+     color:white;
+     width: 100%;
+    ;
+}
+.popular-destination-child2-5 img{
+    width: 100% ;
+    border:10px solid white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .5);
+}
+.popular-destination-child2-5 h3{
+    text-align: center;
+    margin: -60px 0px 60px 0px;
+    font-weight: 800;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#popular-destination-child6{
+    width: 100%;
+    text-align: center;
+    
+
+}
+#popular-destination-child6 h3{
+    width:100%;
+    margin-bottom:20px;
+    color: white;
+}
+#destination-btn{
+
+    background-color: orange;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+}
+#services-htxt{
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+#services-htxt h3{
+    color:orange;
+    line-height: 2;
+
+}
+#services-htxt h2{
+    color:#000067;
+    line-height: 2;
+    font-weight: 900;
+    letter-spacing: 0;
+    font-size: 25px;
+
+}
+.services-child{
+    width: 100%;
+    background-color: white;
+     border: 10px solid white ;
+    border-radius: 10px 10px 10px 10px;;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .5);
+    margin: 20px 0;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    
+}
+.services-child img {
+    width: 100%;
+}
+.s-c-box{
+    background: #fff;
+    padding: 15px;
+    margin: -25px auto 0;
+    border-radius: 12px;
+    box-shadow: -2px 7px 25px 0 rgb(0 0 0 / .07);
+    width: 80%;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.s-c-box h3{
+    font-size: 16px;
+    font-weight: 700;
+    color:#F08906;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.s-c-box i{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#F08906;
+}
+#service-button{
+    margin-top: 30px;
+}
+#service-button-in{
+
+    background-color: orange;
+    padding: 15px 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+#discovered{
+    background-image: url(../images/Home_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    position: relative;
+    padding: 15px;
+}
+
+.discovered-child{
+    width: 100%;
+
+    color:white;
+}
+.discovered-child h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    text-shadow: 0 0 10px rgb(0 0 0 / .3);
+    font-family: "Overpass", Sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+.discovered-child p{
+    font-size: 14;
+    line-height: 1.5;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 2px;
+    text-align: justify;
+}
+#discovered-child-overlay
+{
+    background-color: #005364;
+    opacity: .31;
+}
+
+#traveller-count{
+    background-color: #088A7F;
+    padding:20px;
+}
+#count-heading h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 30px;;
+}
+#count-panel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#count-child1{
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    width:50%;
+    border-right: 1px solid white;
+}
+#count-child2{
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    width:50%;
+}
+#count-child3{
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    width:100%;
+    border-top: 1px solid white;
+}
+#blog{
+    margin:50px 20px;
+}
+#blog h3{
+    color: #F28906;
+    font-family: "Overpass", Sans-serif;
+    font-weight: 700;
+    word-spacing: 2px;
+    margin-bottom: 15px;
+
+}
+#blog-head h2{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;    
+    color: #0B0B76;
+    line-height: 20px;
+}
+#b2{
+    display: none;
+}
+#blog-pannel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.blog-pannel-child{
+    width:100%;
+    margin-top:50px;
+}
+.blog-pannel-child img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-pannel-child h4{
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.blog-pannel-child address{
+    margin: 10px 0px;
+    color:#808080;
+}
+.blog-pannel-child span{
+    color: black;
+    font-weight: bold;
+}
+.blog-pannel-child p{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.button-blog{
+    padding:10px;
+    text-decoration: none;
+    border: 1px solid #e4e8e9;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    font-weight: bold;
+   
+    
+}
+.button-blog a{
+    text-decoration: none;
+    color: #000000;
+   
+    
+}
+#testimonials{
+    margin: 0px 20px;
+}
+#testimonials h3{
+    color: #F28906;
+    font-family: "Overpass", Sans-serif;
+    font-weight: 700;
+    word-spacing: 2px;
+    margin-bottom: 5p;
+    text-align: center;
+}
+#testimonials h2{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;    
+    color: #0B0B76;
+    line-height: 38px;
+    margin-bottom: 20px;
+     text-align: center;
+}
+#testimonials p{
+    line-height: 1.5;
+}
+.testimonials-child{
+    margin-top:30px;
+}
+.t-c-name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.t-c-name-c{
+    width: 45%;
+}
+.t-c-name-c img{
+    width: 100%;
+}
+
+
+
+/* About Page */
+#about-herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.123)), url(../images/about-Travonika-mb.png);
+    background-position: center center;
+    width: 100%;
+    min-height: 600px;
+    align-items: center;
+}
+#about-herosection img{
+    width: 100%;
+}
+#banner{
+    padding:100px 40px 40px 40px;
+}
+#banner h1{
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
+    color: #FFF;
+
+}
+#about-txt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+#about-child1{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+#about-child1 img{
+    width: 100%;
+    border: 10px solid white ;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .5);
+    overflow: hidden;
+}
+#about-child2{
+    
+    width: 100%;
+}
+#about-child2 h2{
+    color: #000067;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: "Roboto", Sans-serif;
+   
+}
+#about-child2 p{
+    font-family: "Roboto", Sans-serif;
+    margin: 20px 0px 40px 0px;
+    text-align: justify;
+    color: #141010;
+    font-weight: 400;
+    word-spacing: 2;
+    line-height: 1.5;   
+}
+#vision-mission{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+}
+.vm-child{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+     box-shadow: 0px 0px 10px 0px rgba(188.24999999999997, 140.72710597826088, 0, 0.5);
+
+}
+.vm-child i{
+    color:#000067
+}
+.vm-child h2{
+    color: #000067;
+    line-height: 1;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.vm-child p{
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 1;
+}
+#team{
+    text-align: center;
+}
+#team-htxt{
+    width: 100%;
+
+
+}
+#team-htxt h3{
+    font-size: 18px;
+    color: #F49806;
+    font-weight: 700;
+    margin: 20px 0px;
+
+}
+#team-htxt h2{
+    color: #000067;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin: 20px 0px;
+}
+#founder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 20px 60px 20px;
+}
+.f-child{
+    width: 100%;
+}
+.f-child h2{
+    color: #000067;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin: 20px 0px;
+
+}
+.f-child h3{
+    color: #F49806;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.f-child p{
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+#director{
+    margin: 20px 20px 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.director-child{
+    width: 100%;
+   
+    margin-bottom: 40px;
+    background-color: white;
+    border: 10px solid white ;
+    box-shadow: 0 28px 40px 0 rgba(0, 0, 0, .1);
+
+}
+.director-child img{
+    width: 100%;
+    
+}
+.director-child h2{
+    font-weight: 700;
+     color: orange;
+    margin: 10px 0px;
+    
+}
+.director-child h3{
+    font-weight: 700;
+    margin: 10px 0px;
+    
+}
+
+.director-child p{
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 1.5;
+    letter-spacing: 1.5
+
+}
+
+/* Tours */
+#tours-herosection
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.205)), url(../images/Tour-Page-mobile.jpg);
+    background-position: center center;
+    width: 100%;
+    min-height: 600px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+#tour-banner{
+    padding:0px 40px 40px 40px;
+}
+#tour-banner h1{
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
+    color: #FFF
+
+}
+#tour-pannel{
+    margin:20px;
+}
+#tour-htxt{
+    text-align: center;
+    margin:50px 0px;
+}
+#tour-htxt h2{
+    color: #000067;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-family: "Roboto", Sans-serif;
+
+}
+#tour-htxt h3{
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    color: #F49806;
+    font-weight: 700;
+    
+}
+.t-head h2{
+    text-align: center;
+    background-color: #000067;
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-family: "Roboto", Sans-serif;
+    padding: 10px;
+    
+}
+.tour-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.t-list-child{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.t-list-child img{
+    
+    border-radius: 10px;    
+}
+.t-list-child h4{
+    font-family: "Roboto", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #061a3a;
+    margin: 10px 0px;
+
+}
+
+.t-list-child-content p{
+    font-size: 16px;
+    color: #224daa;
+    font-weight: 700;
+    line-height: 2;
+}
+.t-list-child-content strong{
+    color: #323E73;
+    font-weight: 600;
+}
+.seedetails-button{
+    padding:10px;
+    text-decoration: none;
+    border: 1px solid #e4e8e9;
+    border-radius: 5px;
+    width:40%;
+}
+.seedetails-button a{
+    text-decoration: none;
+    color: #323E73;
+    font-weight: bold;
+
+}
+
+
+/* Blog */
+#blog-herosection
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.205)), url(../images/Blog-Page-1-Mobile-e1748493972708.png);
+    background-position: center center;
+    width: 100%;
+    min-height: 600px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+#blog-herosection h1{
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
+    color: #FFF
+
+}
+
+
+/* Contact-Us */
+#contact-heresection{
+    background:linear-gradient(rgba(0, 0, 0, 0.205)), url(../images/Contact-Us-Page.jpg);
+    background-position: center center;
+    width: 100%;
+    min-height: 600px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+#contact-heresection h1{
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
+    color: #FFF
+
+}
+
+#contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.contacts-child{
+    
+    border-radius: 10px;
+    box-shadow: 0 30px 40px 0 rgb(6 26 58 / .1);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    align-content: center; 
+    
+
+}
+.c-l-side{
+    width: 28%
+}
+.c-r-side{
+    width: 65%;
+}
+.c-l-side i{
+    color: #F08906;
+   
+}
+.c-r-side h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+.c-r-side p{
+    line-height: 2;
+}
+#getintouch{
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.getintouch-child{
+    width: 100%;
+}
+
+.getintouch-child h3{
+    
+    color: #F28906;
+    font-family: "Overpass", Sans-serif;
+    font-weight: 700;
+    word-spacing: 2px;
+    margin-bottom: 5px;
+}
+.getintouch-child h2{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;    
+    color: #0B0B76;
+    line-height: 38px;
+    margin: 10px 0px;
+}
+.getintouch-child P{
+    font-size: 14;
+    line-height: 1.5;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 2px;
+
+}
+.getintouch-child i{
+    color:#1B4590;
+}
+#form-pannel{
+    background-color: #DADADA;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .5);
+    background: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+}
+input, button, select, textarea {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+textarea {
+  height: 80px;
+}
+#submit {
+  background-color: #0033a0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+ 
+}
+#map-area{
+    margin: 20px 10px;
+}
+iframe{
+    width: 100%;
+}
+/* Footer css */
+
+#footer{
+    background:linear-gradient(rgba(6, 3, 65, 0.613),rgba(6, 3, 65, 0.651)),url(../images/deals-2-1-min.jpg);
+   
+}
+
+#footer-content{
+    margin: 50px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+.footer-child{
+    width:100%; 
+    text-align: center; 
+}
+.footer-child p{
+    margin: 10px 0px;
+    line-height: 20px;
+}
+
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 20px;
+    
+}
+
+.footer-list h3{
+    margin: 20px 0px 10px 0px;
+    font-size: 1.5em;
+    display: none;
+    
+}
+.footer-list ul{
+    display: none;
+    list-style-type: none;
+    text-align: left;
+}
+
+#happy-c{
+    margin: 20px 0px 10px 0px;
+    font-size: 1.5em;
+   
+}
+#image-gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#image-gallary img{
+    margin-top: 10px;
+}
+#f-strip{
+    background-color: #070A26;
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding: 10px;
+
+}
+
+/* tablet view */
+@media only screen and (min-width:768px){
+
+#up-stick
+{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: end;
+     
+}
+#up-child{
+    width: 64%;      
+}
+#logo{
+    margin-left: 10px;
+    width: 15%;
+}
+#logo img{
+    width: 80%;
+}
+#navbar{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 20px;
+
+}
+#menubar{
+    display: none;
+}
+#navbar a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+#home-herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.123)), url(../images/Home-Page_1.jpg);
+}
+.home-herosection-child{
+    width:100%;
+    padding: 120px 0px 0px 10px;         
+}
+
+.home-herosection-child h1{
+    font-size: 4rem;
+    padding-left: 25px;
+   
+}
+.home-herosection-child p{
+    padding-left: 25px;
+}
+#welcome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+  
+}
+.welcome-child1{
+    width: 45%;
+}
+.welcome-child2{
+    width: 45%;
+}
+#review{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+#r-c1-container{   
+    width: 25%;
+   
+    
+}
+.review-child{
+    width: 65%;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: -10px;
+}
+#popular-destination-child1{
+    width: 47%;
+    padding: 20px;
+}
+#popular-destination-child1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.popular-destination-child2-5{
+    width: 47%;
+}
+#popular-destination-child6{
+    width: 47%;
+
+}
+#services-htxt{
+    width: 100%;
+}
+.services-child{
+    width: 47%;
+}
+.discovered-child{
+    width: 47%;
+}
+.blog-pannel-child{
+    width:45%;
+}
+.t-c-name-c{
+    width: 20%;
+}
+#footer-content{
+    justify-content: space-evenly;
+}
+.footer-child{
+    width: 28%;
+}
+.footer-list h3{
+    display: contents;
+
+    
+}
+.footer-list ul{
+    display: block;
+    padding: 40px;
+}
+.footer-list li{
+    
+    padding-bottom: 10px;
+}
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
+
+#happy-c{
+    margin: 0px 0px 10px 0px;
+    
+} 
+#image-gallary img{
+    width: 28%;
+
+}
+#f-strip{
+    height: 40px;
+    text-align: center;
+}
+
+/* about page */
+#up-stick
+{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: end;
+     
+}
+#up-child{
+    width: 64%;  
+      
+}
+#logo img{
+    width: 60%;
+}
+
+#about-child1{
+    width: 40%;
+    margin: 25px 25px 25px 25px;
+}
+#about-child1 img{
+    width: 100%;
+    border: 10px solid white ;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .5);
+    
+    overflow: hidden;
+}
+
+#about-child2{
+    width:50%;
+}
+.vm-child{
+    width: 45%;
+}
+#team-htxt h3{
+     font-family: "Roboto", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+#team-htxt h2{
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    
+}
+.f-child{
+    width: 47%;
+   align-content: center;
+    align-items: center;
+}
+.director-child{
+    width: 47%;
+}
+
+/* tour page */
+
+#tours-herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.205)), url(../images/Tour-Page_2-tab-1.jpg);
+    background-position: center center;
+
+}
+.tour-list{
+    margin: 20px;
+}
+.t-list-child{
+    justify-content: space-between;
+
+}
+.t-list-child-img{
+
+    width: 30%;
+}
+.t-list-child-content{
+    width: 60%;
+   
+}
+
+/* blog page */
+#blog-herosection
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.205)), url(../images/Blog-Page-1-updated.png);
+    background-position: center center;
+}
+#blog-herosection h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    font-style: italic;
+    margin: 20px;
+}
+
+.blog-pannel-child{
+    width: 47%;
+    margin: 5px;
+}
+#blog-pannel{
+    margin-top: 40px;
+}
+.button-blog{
+    padding:5px;
+    border-radius: 2px;
+    width: 40%;
+    text-align: center;
+     font-weight: bold;
+   
+    
+}
+.button-blog a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;    
+}
+
+/* Contact page */
+.contacts-child{
+    width: 48%;
+}
+.getintouch-child{
+    width: 47%;
+}
+}
+
+/* desktop view */
+@media only screen and (min-width:1200px){
+
+
+#logo img{
+    width: 70%;
+    
+}
+ 
+   
+
+#welcome{
+ margin: 40px 30px;
+}
+.welcome-child1{
+    width: 55%;
+   
+
+}
+.welcome-child1 h3{
+   font-size: 25px;
+}
+.welcome-child1 h2{
+    
+    font-size: 35px;
+
+}
+.welcome-child1 p{
+    margin: 10px 10px ;
+    font-size: 18px;  
+}
+
+
+.welcome-child2{
+    width: 35%;
+}
+
+#r-c2-container1{
+    width: 40%;
+
+}
+#r-c2-container2{
+    width: 40%;
+
+}
+#popular-destination-child1{
+    width: 28%;
+   
+}
+#popular-destination-child1 h2{
+    font-size: 30px;
+   
+}
+
+.popular-destination-child2-5{
+    width: 28%;
+}
+#popular-destination-child6{
+    width: 28%;
+
+}
+.services-child{
+    width: 15%;
+}
+.s-c-box h3{
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+.discovered-child{
+    margin-right: 10px;
+    padding: 30px;
+}
+.discovered-child h3{
+    font-size: 30px;
+}
+.discovered-child p{
+    font-size: 18px;
+}
+#count-child1{
+    width: 28%;
+}
+#count-child2{
+    width: 28%;
+    border-right: 1px solid white;
+}
+#count-child3{
+    width: 28%;
+    border: none;
+}
+#blog h3{
+   
+    font-size: 25px;
+
+}
+#blog-head h2{
+    
+    font-size: 40px;
+    
+}
+.blog-pannel-child{
+    width:23%;
+}
+#testimonials h3{
+    font-size: 25px;
+}
+#testimonials h2{
+    font-size: 40px;
+}
+#testimonials p{
+    line-height: 1.5;
+}
+#t-pannel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.testimonials-child{
+    width: 45%;
+}
+
+/* about */
+#about-herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.123)), url(../images/about-Travonika-1.png);
+    background-position: center center;
+    align-items: center;
+}
+#about-herosection h1{
+    font-size: 80px;
+    padding: 80px;
+}
+.director-child{
+    width: 40%;
+
+}
+.director-child img{
+    width: 40%;
+    
+}
+
+/* tours */
+#tours-herosection{
+    background:linear-gradient(rgba(0, 0, 0, 0.205)), url(../images/Tour-Page_2_1.jpg);
+    background-position: center center;
+}
+.tour-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.t-list-child{
+    width: 45%;
+}
+
+/* contact */
+.contacts-child{
+    width:30%;
+    margin: 0px 8px;
+}
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+}
+
+
+
+}

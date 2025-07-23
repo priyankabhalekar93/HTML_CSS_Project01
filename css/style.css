@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    border:1px solid red;
+}
+
+#navbar{
+    display: none;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#herosection{
+    width: 100%;
+}
+#herosection div img{
+    width: 100%;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0px 0px 50px;
+
+}
+.product-child{
+    width: 30%;
+    text-align: center;
+}
+.product-child img{
+    width: 100%;
+}
+
+#trend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+#trend-first{
+    width: 100%;
+    text-align: center;
+}
+.trend-child{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.trend-child img{
+    width: 100%;
+}
+.trend-child button{
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(66, 185, 66);
+    border:0px none white;
+}
+
+#videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+#videos video{
+    width:100%;
+}
+
+#tulsi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.tulsi-child{
+    width: 100%;
+}
+.tulsi-child img{
+    width: 100%;
+    
+}
+#tulsi-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.t-img-child{
+    width:15%;
+    margin: 10px;
+}
+.t-img-child img{
+    width:100%;
+}
+.t-txt-child{
+    width: 75%;
+    margin: 10px 0px;
+
+}
+#tulsi-h{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#healthy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.healthy-child{
+    width: 100%;
+    margin: 5px 0px;
+}
+.healthy-child iframe{
+    width: 100%;
+}
+.healthy-child button{
+    background-color: orange;
+    padding: 5px;
+    margin: 3px;
+    border:0px none white;
+    color:white
+}
+
+#review{
+    background-image: url(../images/1920-X-830-testimonial.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+    padding-top: 20px;
+}
+.review-child{
+    width: 100%;
+}
+
+#diabetes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+#dbts-img{
+    width: 100%;
+}
+#dbts-img img{
+    width: 100%;
+}
+#dbts-txt{
+    width: 100%;
+}
+#dbts-txt h2,h4,p{
+    margin: 10px;
+}
+#dbts-txt button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    border:0px none white;
+    margin: 10px;
+
+}
+
+#blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#blogs-h{
+    width: 100%;
+    text-align: center;
+    margin:20px 0px;
+}
+.blogs-child{
+    width: 100%;
+}
+.blogs-child img{
+    width: 100%;
+}
+.blogs-child h4,p{
+    margin: 20px;
+}
+.blogs-child button{
+    background-color: orange;
+    padding: 5px;
+    margin-left: 20px;
+    border:0px none white;
+    color: white;
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(../images/1920-X-600-footer-option.webp);
+    padding-top: 20px;
+    margin-top: 20px;
+    color: white;
+
+}
+footer div{
+    width: 100%;
+    text-align: center;
+}
+#fl-form{
+    width: 100%;
+    margin: 10px 0px;
+
+}
+#email{
+    padding:10px 5px;
+
+}
+#email:focus{
+    border: 0px none white;
+}
+#sub{
+    padding:10px 5px;
+    background-color: black;
+    color: white;   
+}
+
+.footer-list li{
+    margin: 10px 0px;
+}
+
+#social-icon i{
+    font-size: 25px;
+    padding: 0px 5px;
+
+}
+
+
+@media only screen and (min-width:768px){
+    .trend-child{
+    width: 28%;
+    margin: 15px;
+    }
+
+    #videos video{
+    width:48%;
+    }
+
+    
+    .tulsi-child {
+    width: 47%;   
+    }
+
+    .healthy-child{
+    width: 48%;
+    margin: 5px 0px;
+    }
+
+    .review-child{
+    width: 70%;
+    }
+
+    #navbar nav a{
+        color: black;
+        text-decoration: none;
+        margin: 0px 10px;
+    }
+
+   
+}
+   
+
+
+
+@media only screen and (min-width:1200px){
+
+    #menubar{
+        display: none;
+    }
+    #navbar{
+        display: flex;
+    }
+
+    #icons i{
+        margin: 0px 7px;
+    }
+
+    .product-child{
+    width: 23%;
+    }
+    .trend-child{
+    width: 23%;
+  ;
+}
+    
+
+}

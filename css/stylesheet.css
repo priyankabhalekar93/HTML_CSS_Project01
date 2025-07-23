@@ -462,7 +462,7 @@ header{
     font-weight: 900;
     letter-spacing: 1px;    
     color: #0B0B76;
-    line-height: 20px;
+    line-height: 30px;
 }
 #b2{
     display: none;
@@ -816,7 +816,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 20px 0px;
 }
 .t-list-child img{
     
@@ -1052,13 +1052,22 @@ iframe{
 .footer-list h3{
     margin: 20px 0px 10px 0px;
     font-size: 1.5em;
-    display: none;
+   
     
 }
 .footer-list ul{
-    display: none;
+   
     list-style-type: none;
     text-align: left;
+}
+.footer-list li{
+      text-align: center;
+      
+    color: white;
+}
+.footer-list a{
+    text-decoration: none; 
+    color: white;
 }
 
 #happy-c{

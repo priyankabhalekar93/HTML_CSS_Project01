@@ -567,6 +567,7 @@ header{
     width: 100%;
     min-height: 600px;
     align-items: center;
+
 }
 #about-herosection img{
     width: 100%;
@@ -576,12 +577,13 @@ header{
 }
 #banner h1{
     font-family: "Roboto", Sans-serif;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     line-height: 1;
     font-weight: 800;
     font-style: italic;
     text-shadow: 5px 12px 2px rgb(0 0 0 / .3);
     color: #FFF;
+    padding-top: 150px;
 
 }
 #about-txt{
